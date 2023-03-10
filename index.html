@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+    <title>Document</title>
+</head>
+<body>
+
+<div class="main">
+<input type="text" placeholder="City" id="city">
+<button id="temp">Ok</button>
+</div>
+
+<div class="info">
+    <p> City:  <span class="nameCity"></span> </p>
+    <p> Temperature:  <span class="currentTemperature"></span> </p>
+    <p> Humidity:  <span class="humidity"></span> </p>
+    <p> Wind:  <span class="wind"></span> </p>
+  
+   </div>
+
+
+<style>
+    .info span{
+        font-weight: 700;
+    }
+    .info{
+     margin: 0 40%;
+    }
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main input{
+    margin: 10px;
+    font-size: 16px;
+    padding: 5px;
+    background-color: rgb(243, 210, 210);
+
+}
+.main button{
+    width: 100px;
+    margin: 10px;
+    background-color: brown;
+    color: white;
+font-size: 16px;
+}
+</style>
+
+<script src="index.js"></script>
+</body>
+</html>
